@@ -1,0 +1,11 @@
+Model Information:
+* title:	Urna Eletrônica | brazilian voting machine
+* source:	https://sketchfab.com/3d-models/urna-eletronica-brazilian-voting-machine-22e106e64edb480882bf596ee1cd43f0
+* author:	Bruno.Ticianelli (https://sketchfab.com/Bruno.Ticianelli)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Urna Eletrônica | brazilian voting machine" (https://sketchfab.com/3d-models/urna-eletronica-brazilian-voting-machine-22e106e64edb480882bf596ee1cd43f0) by Bruno.Ticianelli (https://sketchfab.com/Bruno.Ticianelli) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

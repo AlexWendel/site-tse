@@ -1,0 +1,188 @@
+html {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 1.2em;
+}
+
+body{
+    display: grid;
+    min-height: 100vh;
+    grid-template-rows: auto 1fr auto;
+}
+
+header, header > div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header, footer, main {
+    padding: 10px 1.5vw;
+}
+
+header{
+    border-bottom: 2px solid #f0f5fa;
+    /* box-shadow: 0 0 .5px; */
+}
+
+header > .navigation-links{
+    justify-content: space-around;
+    gap: 1em;
+}
+
+main{
+    margin: 2em 0;    
+}
+
+section{
+    margin: 2em 0;
+    border-bottom: 1px solid #3c454c12;
+    padding: 10px 2.5vw;
+}
+
+section#splash{
+    min-height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;    
+}
+
+section > div.header {
+    margin-bottom: 2em;
+}
+
+footer{
+    display:flex; 
+    bottom: -50px;
+    flex-flow: row wrap; 
+    padding: 30px; 
+    top: -20%; 
+    justify-content: space-around;
+    background-color: rgb(67, 81, 150);
+    color: white;    
+}
+
+footer a{
+    color:#f0f5fa;
+}
+
+footer a:hover{
+    color:rgb(247, 195,0);
+}
+
+footer #contact > ul {
+    list-style-type: none;
+}
+
+footer #contact > ul > li > i {
+    display: inline-flex;
+    vertical-align: middle; 
+    min-width: 30px;    
+}
+
+footer #copyright{
+    display: flex; 
+    align-items: center;
+    max-width: 35vw; 
+    letter-spacing: -.5px; 
+}
+
+
+a {
+    color: gray;
+    text-decoration: none;  
+}
+
+a:hover{
+    color: green;
+}
+
+  
+.inputGroup label {
+    padding: 12px 30px;
+    display: block;
+    text-align: left;
+    color: #3C454C;
+    cursor: pointer;
+    position: relative;
+    z-index: 2;
+    transition: color 200ms ease-in;
+    overflow: hidden;
+    border: 2px solid #D1D7DC;
+    border-bottom: 0;;
+    font-weight: 500;
+}
+
+.inputGroup:hover{
+    background-color: rgb(244, 215, 110);
+}
+
+.inputGroup:last-of-type{
+    color: red;
+    border-bottom: 2px solid #D1D7DC;
+}
+
+.inputGroup label:before {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    content: "";
+    background-color: #7680f1;
+    position: absolute;
+    width: 100%;
+    opacity: 0;
+    z-index: -1;
+}
+.inputGroup label:after {
+    width: 32px;
+    height: 32px;
+    content: "";
+    border: 2px solid #D1D7DC;
+    background-color: #fff;
+    background-image: url("data:image/svg+xml,%3Csvg width='32' height='32' viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M5.414 11L4 12.414l5.414 5.414L20.828 6.414 19.414 5l-10 10z' fill='%23fff' fill-rule='nonzero'/%3E%3C/svg%3E ");
+    background-repeat: no-repeat;
+    background-position: 2px 3px;
+    border-radius: 50%;
+    z-index: 2;
+    position: absolute;
+    right: 30px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    transition: all 200ms ease-in;
+}
+.inputGroup input:checked ~ label {
+    color: #fff;
+}
+
+.inputGroup input:checked ~ label:before {
+    transform: translate(-50%, -50%) scale3d(56, 56, 1);
+    opacity: 1;
+}
+.inputGroup input:checked ~ label:after {
+    background-color: rgb(117, 187, 117);
+    border-color: rgb(126, 223, 126);
+}
+
+.inputGroup input {
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    order: 1;
+    z-index: 2;
+    right: 30px;
+    top: 100%;
+    transform: translateY(-100%);
+    cursor: pointer;
+    background-color: black;
+    visibility: hidden;
+}
+
+.form {
+    line-height: 2em;
+}
+
+hr.divider{
+    border: 1px solid #f0f5fa; margin: 2em 0;
+}

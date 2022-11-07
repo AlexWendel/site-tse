@@ -1,0 +1,10 @@
+[
+    {
+        "pergunta": "",
+        "alternativas": [
+            {"text": "Alternativa 1", "correta": true},
+            {"text": "Alternativa 2", "correta":false}
+        ],
+        "explicacao": "Meu pau na tua mão"
+    }
+]

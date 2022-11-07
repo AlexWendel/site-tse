@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tribunal Superior Eleitoral</title>
+    <link rel="shortcut icon" type="image/x-icon" href="/assets/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/0.146.0/three.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.7.7/handlebars.min.js" integrity="sha512-RNLkV3d+aLtfcpEyFG8jRbnWHxUqVZozacROI4J2F1sTaDqo1dPQYs01OMi1t1w9Y2FdbSCDSQ2ZVdAC8bzgAg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="/assets/js/quiz.js"></script>
+    <link rel="stylesheet" href="/assets/css/main.css">
+</head>
+<body>
+    <header>
+        <div class="">
+            <img src="/assets/img/logo.png" alt="Logo Tribunal Superior Eleitoral" title="Tribunal Superior Eleitoral">
+            <h3 class="title is-5">Tribunal Superior Eleitoral</h3>
+        </div>
+        
+        <div class="navigation-links">
+            <a href="">Sobre as eleições</a>
+            <a href="">Urna Eletrônica</a>
+            <a href="">Estatísticas</a>
+        </div>
+    </header>
+
+    <main>
+        <section id="splash">
+            <div>
+                <h1 class="title is-1">Tribunal Superior Eleitoral</h1>
+                <h3 class="subtitle is-4">Compromisso com a justiça eleitoral brasileira</h3>
+            </div>
+            <div id="render3d"></div>
+        </section>
+
+        
+        <section id="about-urna">
+            <div class="header">
+                <h1 class="title is-3" style="letter-spacing: -.5px;">Sobre a urna eletrônica</h1>
+                <h2 class="subtitle is-5" style="letter-spacing: -1.2px;" >Conheça mais sobre o computador utilizada para votação</h2>                
+            </div>
+        </section>
+
+        <section id="quiz">
+            <div class="header">
+                <h1 class="title is-3" style="letter-spacing: -.5px;">Quiz</h1>
+                <h2 class="subtitle is-5" style="letter-spacing: -1.2px;" >Teste seu conhecimento acerca do processo eleitoral brasileiro</h2>                
+            </div>
+
+            <form class="form">  
+                <div class="header" style="padding-left: 10px; margin-bottom: 1.5em;">
+                    <h2 class="title is-4" style="margin: 0;padding:0;">1. Você odeia a sua vida?</h2>
+                    <p class="subtitle is-6" style="font-weight:lighter;margin-top:0">Responda com sinceridade, ou você estará fadado ao fracasso</p>
+                </div>
+
+                <div class="inputGroup">
+                    <label for="radio1">Sim</label> 
+                  <input id="radio1" name="radio" type="radio"/>
+                </div>
+
+                <div class="inputGroup">
+                    <label for="radio2">Com certeza!</label>
+                  <input id="radio2" name="radio" type="radio"/>
+                </div>
+            </form>      
+        </section>
+
+    </main>
+
+    <footer>
+
+        <div id="copyright">
+            <div>
+                <img src="/assets/img/logo-inverse.png" alt="Tribunal Superior Eleitoral">
+            </div>
+            <div>
+                <p>Tribunal Superior Eleitoral</p>
+                <p>© 2022 Tribunal Superior Eleitoral</p> 
+                <p>Todos os direitos reservados</p>
+            </div>         
+        </div>
+
+        <div id="contact">
+                <ul>
+                    <li>
+                        <a href="https://fb.me/tsejus">
+                        <i class="fa fab fa-facebook" ></i>
+                        <span style="display: inline-flex;vertical-align: middle;">jsejus</span></a>
+                    </li>
+                    <li>
+                        <a href="https://ig.me/tsejus">
+                        <i class="fa fab fa-instagram"></i>
+                        <span style="vertical-align: middle;">tsejus</span ></a>
+                    </li>           
+                    <li>
+                        <a href="https://twitter.com/tsejusbr">
+                        <i class="fa fab fa-twitter" ></i>
+                        <span style="vertical-align: middle;">tsejusbr</span ></a>
+                    </li>           
+                </ul>
+        </div>
+
+    </footer>
+
+    <script src="/assets/js/GLTFLoader.js"></script>
+    <script src="/assets/js/OrbitControls.js"></script>
+    <script src="/assets/js/RenderModel.js"></script>    
+</body>
+</html>
